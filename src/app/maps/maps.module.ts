@@ -3,6 +3,8 @@ import { CommonModule } from '@angular/common';
 import { MapScreenComponent } from './screens/map-screen/map-screen.component';
 import { MapViewComponent } from './components/map-view/map-view.component';
 import { LoadingComponent } from './components/loading/loading.component';
+import { BtnMyLocationComponent } from './components/btn-my-location/btn-my-location.component';
+import { LogoComponent } from './components/logo/logo.component';
 
 
 
@@ -10,7 +12,9 @@ import { LoadingComponent } from './components/loading/loading.component';
   declarations: [
     MapScreenComponent,
     MapViewComponent,
-    LoadingComponent
+    LoadingComponent,
+    BtnMyLocationComponent,
+    LogoComponent
   ],
   imports: [
     CommonModule
